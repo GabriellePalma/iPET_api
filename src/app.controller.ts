@@ -7,13 +7,21 @@ export class AppController {
 
   @Get()
   getHello(): string {
+<<<<<<< HEAD
     return this.appService.getHello()
+=======
+    return this.appService.getHello();
+>>>>>>> 8c933c92aa55237d2eb12225b1e404f3eeee9bdb
   }
 
   @Get('objeto')
   getObject(): any {
     return this.appService.getObject()
+<<<<<<< HEAD
     
   }
 
+=======
+  }
+>>>>>>> 8c933c92aa55237d2eb12225b1e404f3eeee9bdb
 }
